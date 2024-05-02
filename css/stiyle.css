@@ -66,3 +66,29 @@ body {
     justify-content: center;
     flex-grow: 1;
 }
+
+.mains {
+    background: #000;
+    min-height: 80vh;
+}
+
+.mains .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h1__section {
+    font-size: 50px;
+    color: #fff;
+}
+
+.section__ul {
+    display: flex;
+}
+
+.section__link .section__a {
+    color: #fff;
+    display: flex;
+    gap: 30px;
+}
